@@ -13,9 +13,8 @@
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-md navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light shadow-sm px-4">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/img/logo-bmwukong.png" alt="Logo black myth wukong" />
                 </a>
@@ -28,29 +27,62 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#wukong-hero">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Servicios</a>
+                            <a class="nav-link" href="#wukong-story">Historia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link" href="#wukong-characters">Personajes</a>
                         </li>
                     </ul>
                 </div>
-            </div>
         </nav>
     </header>
 
     <main>
+        <section id="wukong-hero" class="py-5 bg-body-tertiary">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-12 col-lg-6 text-center text-lg-start">
+                        <h1 class="display-5 fw-bold lh-1 mb-3">
+                            Despierta el Poder del <span class="text-warning">Destinado</span>
+                        </h1>
+                        <p class="lead mb-4">
+                            Recorre paisajes ancestrales y enfrenta a los guardianes del Reino de las Nubes.
+                            En un mundo donde la muerte es solo un paso más hacia la iluminación,
+                            deberás dominar el bastón y las transformaciones místicas para reclamar tu lugar
+                            en la leyenda del <strong>Gran Sabio</strong>.
+                        </p>
+                        <div
+                            class="d-flex flex-column flex-md-row justify-content-center justify-content-lg-start gap-2">
+                            <a href="https://store.steampowered.com/app/2358720/Black_Myth_Wukong/"
+                                class="btn btn-warning btn-lg px-4 text-dark" target="_blank" rel="noopener noreferrer">
+                                Juega ahora
+                            </a>
+
+                            <a href="https://www.youtube.com/watch?v=2p5h24YwGnA"
+                                class="btn btn-outline-secondary btn-lg px-4" target="_blank" rel="noopener noreferrer">
+                                Aprende más
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 d-flex justify-content-center">
+                        <img src="./assets/img/WukongHero.webp"
+                            class="hero-img img-fluid rounded-5 shadow-lg border border-warning border-opacity-50 border-3"
+                            alt="Sun Wukong" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section>
 
         </section>
+
         <section>
 
-        </section>
-        <section>
-            
         </section>
     </main>
 

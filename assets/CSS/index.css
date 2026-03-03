@@ -1,4 +1,12 @@
-.navbar-brand img{
+
+.navbar-brand img {
     width: 100px;
     height: auto;
 }
+
+.hero-img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
