@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-12 col-lg-6 d-flex justify-content-center">
                         <img src="./assets/img/bg-wukong.jpg" class="img-fluid rounded-4 shadow-lg"
-                            alt="backgrod wukong"/>
+                            alt="backgrod wukong" />
                     </div>
                 </div>
                 <div class="row g-4 text-center">
@@ -129,8 +129,141 @@
             </div>
         </section>
 
-        <section>
+        <section id="wukong-characters" class="py-5 bg-body-tertiary">
+            <div class="container">
 
+                <div class="text-center mb-5">
+                    <h2 class="display-6 fw-bold">Figuras del <span class="text-warning">Mito</span></h2>
+                    <p class="text-muted">Haz clic en cada uno para descubrir su historia completa.</p>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm overflow-hidden border-top border-warning border-4">
+                            <img src="#" class="card-img-top" alt="El Destinado" />
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fw-bold">EL DESTINADO</h3>
+                                <p class="card-text text-secondary small mb-4">
+                                    Un joven mono que busca las reliquias perdidas del Gran Sabio.
+                                </p>
+                                <button type="button" class="btn btn-warning mt-auto fw-bold" data-bs-toggle="modal"
+                                    data-bs-target="#modalDestinado">
+                                    Ver Detalles
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm overflow-hidden border-top border-danger border-4">
+                            <img src="#" class="card-img-top" alt="Guangzhi" />
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fw-bold">GUANGZHI</h3>
+                                <p class="card-text text-secondary small mb-4">
+                                    Monje lobo maestro del fuego y la lanza mística.
+                                </p>
+                                <button type="button" class="btn btn-danger mt-auto fw-bold" data-bs-toggle="modal"
+                                    data-bs-target="#modalGuangzhi">
+                                    Ver Detalles
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm overflow-hidden border-top border-secondary border-4">
+                            <img src="#" class="card-img-top" alt="Macaco Fiel" />
+                            <div class="card-body d-flex flex-column">
+                                <h3 class="card-title fw-bold">MACACO FIEL</h3>
+                                <p class="card-text text-secondary small mb-4">
+                                    Un guía silencioso que aparece en los picos nevados.
+                                </p>
+                                <button type="button" class="btn btn-dark mt-auto fw-bold" data-bs-toggle="modal"
+                                    data-bs-target="#modalMacaco">
+                                    Ver Detalles
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+<!-- -------------------------------------------------------------------------------------------------------------- -->
+            <div>
+                <div class="modal fade" id="modalDestinado" tabindex="-1" aria-labelledby="modalDestinadoLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content border-warning border-2">
+                            <div class="modal-header bg-dark text-white">
+                                <h3 class="modal-title fw-bold" id="modalDestinadoLabel">Habilidades del Destinado</h3>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>El Destinado utiliza un bastón ruyi que puede cambiar de tamaño. Sus habilidades
+                                    principales
+                                    incluyen:</p>
+                                <ul>
+                                    <li><strong>Posturas de Combate:</strong> Aplastamiento, Estocada y Pilar.</li>
+                                    <li><strong>Transformaciones:</strong> Puede tomar la forma de enemigos derrotados.
+                                    </li>
+                                    <li><strong>Hechizos:</strong> Inmovilización y Paso de Nube.</li>
+                                </ul>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalGuangzhi" tabindex="-1" aria-labelledby="modalGuangzhiLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content border-danger border-2">
+                            <div class="modal-header bg-dark text-white">
+                                <h3 class="modal-title fw-bold" id="modalGuangzhiLabel">Guía de Jefe: Guangzhi</h3>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Guangzhi es el primer jefe importante. Al derrotarlo, obtienes la transformación
+                                    <strong>"Marea Roja"</strong>.
+                                </p>
+                                <p>Su estilo se basa en ataques rápidos de fuego. Se recomienda usar esquivas laterales
+                                    y el
+                                    hechizo de inmovilización en sus ataques pesados.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="modalMacaco" tabindex="-1" aria-labelledby="modalMacacoLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content border-secondary border-2">
+                            <div class="modal-header bg-dark text-white">
+                                <h3 class="modal-title fw-bold" id="modalMacacoLabel">Misterios del Macaco</h3>
+                                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Este enigmático personaje aparece en momentos clave de la historia. Se dice que
+                                    conoce el
+                                    paradero de las reliquias del Gran Sabio.</p>
+                                <p>No es un enemigo, sino un observador que pondrá a prueba la moralidad del Destinado.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
