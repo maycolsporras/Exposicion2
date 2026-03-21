@@ -1,24 +1,25 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #0b0c10;
-    color: #c5c6c7;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 
-.hero-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x1080');
-    /* Sustituir con imagen real */
-    background-size: cover;
-    height: 80vh;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
 }
 
-.navbar-brand {
-    font-family: 'Cinzel', serif;
-    font-weight: bold;
-    color: #66fcf1 !important;
+.navbar-brand img {
+    width: 100px;
+    height: auto;
 }
 
-.card {
-    background-color: #1f2833;
-    border: 1px solid #45a29e;
-    color: white;
+.hero-img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.card img{
+    height: 250px; 
+    object-fit: cover;
 }
