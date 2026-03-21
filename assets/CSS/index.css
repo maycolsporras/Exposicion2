@@ -1,0 +1,24 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x1080');
+    /* Sustituir con imagen real */
+    background-size: cover;
+    height: 80vh;
+}
+
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color: #66fcf1 !important;
+}
+
+.card {
+    background-color: #1f2833;
+    border: 1px solid #45a29e;
+    color: white;
+}
